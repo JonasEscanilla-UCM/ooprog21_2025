@@ -2,7 +2,7 @@ import javax.swing.JOptionPane;
 public class UsingJOptionPaneDialogs {
     public static void main(String[] args) {
         String name = null;
-        for (int i = 0; i < 1; ) {  
+        for (;;) {  
             name = JOptionPane.showInputDialog(null, "What is your name?");
             if (name.trim().isEmpty()) {
                 JOptionPane.showMessageDialog(null, "Please enter a valid name.");
@@ -16,10 +16,10 @@ public class UsingJOptionPaneDialogs {
             );
             if (response == JOptionPane.YES_OPTION) {
                 JOptionPane.showMessageDialog(null, "Hello, " + name + "!");
+                break;
             } else {
                 continue;
             }
-            i = 1;
         }
     }
 }
