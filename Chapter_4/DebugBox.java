@@ -15,16 +15,18 @@ public class DebugBox {
     public void showData() {
         System.out.println("Width: " + width + 
                             " Length: " + length + 
-                            " Height: " + height);
+                            " Height: " + height
+        );
     }
     public double getVolume() {
         double vol = length * width * height;
         return vol;
     }
 
-     public static void main (String[] args) {
+    public static void main (String[] args) {
         DebugBox db = new DebugBox();
         db.showData();
         System.out.println("Volume: " + db.getVolume());
     }
 }
+
