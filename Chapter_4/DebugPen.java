@@ -20,6 +20,7 @@ public class DebugPen {
         DebugPen pen = new DebugPen();
         System.out.println("Pen -> Color: " + pen.getColor() + 
                             ", Point: " + pen.getPoint()
-                        );
+        );
     }
+
 }
