@@ -22,5 +22,5 @@ public class DebugBox {
         double vol = length * width * height;
         return vol;
     }
-
+}
 
