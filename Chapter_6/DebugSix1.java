@@ -14,8 +14,9 @@ public class DebugSix1 {
 
         while(day <= days) {
             money *= 2;
-            day++;
             System.out.println("After day " + day + " you have " + money);
+            day++;
         }
     }
 }
+
