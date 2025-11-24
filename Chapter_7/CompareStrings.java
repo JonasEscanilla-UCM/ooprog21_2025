@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class CompareStrings {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -18,3 +17,4 @@ public class CompareStrings {
         sc.close();
     }
 }
+
